@@ -22,21 +22,15 @@ def add():
     number1 = float(myinput.get())
     myinput.delete(0,END)
 def substract():
-    global operation
     operation = "sub"
-    global number1
     number1 = float(myinput.get())
     myinput.delete(0, END)
 def multiply():
-    global operation
     operation = "mul"
-    global number1
     number1 = float(myinput.get())
     myinput.delete(0, END)
 def divide():
-    global operation
     operation = "div"
-    global number1
     number1 = float(myinput.get())
     myinput.delete(0, END)
 
