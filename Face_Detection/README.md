@@ -1,7 +1,7 @@
 This is a face detection software which uses opencv ( python module ) to detect human faces and encloses them inside a green box.
 
 
-Before accessing the file make sure to have opencv installed on you PC.
+Before accessing the file make sure to have opencv installed on your PC.
 
 For this, you can either use the command 
 
