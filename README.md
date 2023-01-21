@@ -1,4 +1,4 @@
-///////////////////////           These are some of my projects which is have primarily built using Python.     ////////////////////////
+///////////////////////           These are some of my projects which I have primarily built using Python.     ////////////////////////
 
 
 
