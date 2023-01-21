@@ -5,7 +5,8 @@ root = Tk()
 root.title("YT Downloader")
 
 def download_mp4(video):
-    video.streams.filter(only_audio=True).first().download()
+    ys = video.streams.first()
+    ys.download()
 
     dow_ins = Label(root, text="The file has been downloaded in the same ", font=("Helvetica", 12), fg="red")
     dow_ins.grid(row=10, column=0, padx=5, pady=7)
